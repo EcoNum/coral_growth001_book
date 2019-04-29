@@ -1,5 +1,5 @@
 --- 
-title: "Aide pour l'application 'CoralGrowth'"
+title: "Bookdown d'aide pour l'application 'CoralGrowth'"
 author: "Benrezkallah Jordan"
 date: "`r Sys.Date()`"
 bibliography:
@@ -26,6 +26,8 @@ knitr::write_bib(c(
 
 # Utilisateur
 L'application *Coral Growth* permet de suivre l'évolution de la croissance de boutures de corail à partir de l'URL d'un Googlesheets.
+
+L'application est disponible à l'adresse suivante : https://jack177.shinyapps.io/coralgrowth/
 
 ```{r, echo=FALSE}
 knitr::include_app("https://jack177.shinyapps.io/coralgrowth/", 
