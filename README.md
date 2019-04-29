@@ -1,18 +1,8 @@
 ---
 output:
-  md_document:
-    variant: markdown_github
+  md_document: default
+  html_document: default
 ---
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "README_fig/README-"
-)
-```
 
 
 # Bookdown CoralGrowth - Page d'aide pour l'application CoralGrowth
