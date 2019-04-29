@@ -1,9 +1,3 @@
----
-output:
-  md_document: default
-  html_document: default
----
-
 
 # Bookdown CoralGrowth - Page d'aide pour l'application CoralGrowth
 
