@@ -17,10 +17,21 @@ biblio-style: apalike
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
+
+
 ```
+
+
+
 
 # Utilisateur
 L'application *Coral Growth* permet de suivre l'évolution de la croissance de boutures de corail à partir de l'URL d'un Googlesheets.
+
+```{r, echo=FALSE}
+knitr::include_app("https://jack177.shinyapps.io/coralgrowth/", 
+  height = "800px")
+```
+
 
 Ce chapitre est destiné à ceux désirant de comprendre l'utilisation de l'application.
 Dans le chapitre, il y aura des explications destiné à ceux voulant comprendre le fonctionnement de l'application.
