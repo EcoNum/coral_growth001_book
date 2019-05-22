@@ -89,7 +89,7 @@ Le choix des **ID** se fait via un menu déroulant qui permet de les sélectionn
 *Skeleton mass* correspond à la masse squelettique de la bouture. Elle est calculée à partir de la masse immergée, de la salinité et de la température à l'aide de la formule ci-dessous mise au point par Jokiel *et al* (1978) :
 \begin{equation}
 \large
-  m_{squelettique} = \frac {m_{immerge}}{ \frac{1 - \rho_{eau}}{ \rho_{squelettique}}}
+  m_{squelettique} = \frac {m_{immerge}}{ 1 - \frac{\rho_{eau}}{ \rho_{squelettique}}}
 \end{equation}
 $\rho_{eau}$ est déterminé via l'équation d'état de l'eau de mer grâce à la mesure de la salinité et de la température.
 Le $\rho_{squelettique}$ est la densité de l'aragonite(CaCO~3~) <!-- # \chemform{CaCO_3} -->du squelette du corail.
